@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     {
         actions[Random.Range(0, actions.Count)].Activate(atk);
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
 
         combatEnemy.listPos++;
 
